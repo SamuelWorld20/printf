@@ -28,10 +28,10 @@ The custom `printf` function is used similarly to the standard `printf` function
 #include "myprintf.h"
 
 int main() {
-    int num = 24;
-    char* name = "Samuel";
+    int age = 12;
+    char* name = "Leesam";
 
-    myprintf("Hello, my name is %s and my favorite number is %d.\n", name, num);
+    myprintf("Hello, my name is %s and I am %d years old.\n", name, age);
 
     return 0;
 }
